@@ -1,6 +1,7 @@
-SELECT *
+SELECT IdCliente,
+       DtCriacao,
+       DtAtualizacao
 
-FROM clientes
+FROM clientes;
 
-LIMIT 10
-
+SELECT 'FODASE';
